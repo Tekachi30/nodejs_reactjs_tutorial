@@ -1,0 +1,52 @@
+.App{
+    height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.books{
+    display: flex;
+    gap: 20px;
+}
+
+.book{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: rgb(142, 192, 175);
+    border: 1px solid rgb(124, 176, 178);
+    color: rgb(54, 134, 143);
+}
+
+button{
+    margin-top: 20px;
+}
+
+.delete{
+    border: border;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(124, 176, 178);
+    color: rgb(196, 10, 10);
+}
+
+.update{
+    border: border;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(124, 176, 178);
+    color: rgb(12, 5, 206);
+}
